@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.content-header {
+  margin-bottom: 16px;
+}
+
+.btn {
+  padding: 10px 16px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.btn:hover {
+  background-color: rgba(128, 128, 128, 0.25);
+}
+
+.input {
+  padding: 10px 16px;
+  border: 1px solid grey;
+  margin-right: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td {
+  min-width: 50px;
+  min-height: 50px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.ok {
+  background-color: green;
+}
+
+.fail {
+  background-color: yellow;
+}
